@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <main>
+        <header>
+            <div class="home_ico">
+                <a href="#"><i class="fa-solid fa-house"></i></a>
+            </div>
+            <div class="result">
+               <a href="ressult.html"><i class="fa-solid fa-square-poll-vertical"></i> Listes des Produits</a>
+            </div>
+        </header>
+
+        <div class="container">
+          <div class="containerForm">
+            <div class="menu">
+                <div class="update_employee">
+                    <p>Update employee</p>
+                    <!-- <i class="fa-regular fa-circle-left"></i> --><input type="submit" value="Back">
+                </div>
+            </div>
+            <form action="" id="formulaire" method="post">
+               <div class="input_field">
+                <label for="ProduitName">Produit Name</label>
+                <input type="text" id="ProduitName" name="ProduitName">
+               </div>
+
+                <div class="input_field">
+                    <label for="unitPrice">Prix unit</label>
+                    <input type="text" id="unitPrice" name="unitPrice">
+                </div>
+
+                <div class="input_field">
+                    <label for="quantity">Quantity</label>
+                    <input type="text" id="quantity" name="quantity">
+                </div>
+
+                <div class="soumettre">
+                    <input type="submit" name="submit" id="submit">
+                </div>
+            </form>
+          </div>
+        </div>
+    </main>
+
+    <div class="container">
+        <div class="container_tableau">
+            <div class="menu">
+                <div class="update_employee">
+                    <p>Update employee</p>
+                    <!-- <i class="fa-regular fa-circle-left"></i> --><input type="submit" value="Add">
+                </div>
+            </div>
+
+            <table id="">
+                <tr>
+                    <thead>
+                        <th>Produit Name</th>
+                        <th>Prix unit</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                        <th>Action</th>
+                    </thead>
+                </tr>
+                <tbody id="tablebody">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
